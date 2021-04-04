@@ -1,0 +1,137 @@
+@import 'shop.css';
+
+body {
+    background-color: rgb(110, 4, 110);
+
+}
+nav {
+    background-color:  rgb(182, 48, 182);
+
+}
+
+li {
+    list-style: none;
+}
+
+#login, #signup {
+    font-size: 13px;
+}
+
+.showcase {
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(161, 10, 161);
+    min-height: 50vh;
+    width: 100%;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.7),  rgba(0, 0, 0, 0.7)), url('../media/showcase_img.jpg'); */
+    background-image: url('../media/showcase_img.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.hot-grapes {
+    flex-direction: column;
+    /* background-color: rgb(213, 19, 213); */
+    background: #c777b9;
+background: -moz-linear-gradient(45deg,  #c777b9 0%, #bd61a8 33%, #b51189 53%, #d256ad 100%);
+background: -webkit-linear-gradient(45deg,  #c777b9 0%,#bd61a8 33%,#b51189 53%,#d256ad 100%);
+background: linear-gradient(45deg,  #c777b9 0%,#bd61a8 33%,#b51189 53%,#d256ad 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c777b9', endColorstr='#d256ad',GradientType=1 );
+
+    min-height: 800px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.hot-grape-item {
+    min-height: 400px;
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+
+}
+
+.grape-img {
+    height: 250px;
+    width: 300px;
+    border-radius: 2px;
+}
+
+.grape-info {
+    padding: 15px ;
+}
+
+.see-more a {
+    text-decoration: none;
+    color: white;
+}
+
+.about-our-grapes, .shop {
+    background-color: rgb(213, 19, 213);
+    min-height: 700px;
+    width: 100%;
+}
+
+.about-our-grapes-info-div, .shop-div {
+    background-color: rgb(110, 4, 110);
+    padding: 30px 30px ;
+    border-radius: 5px;
+}
+
+.learn-more {
+    text-decoration: none;
+    color: khaki;
+}
+
+.learn-more:hover {
+    color: rgb(211, 202, 124);
+}
+
+footer {
+    background-color: black;
+    min-height: 100px;
+}
+
+.fa {
+    height: fit-content;
+    width: fit-content;
+    font-size: 25px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }

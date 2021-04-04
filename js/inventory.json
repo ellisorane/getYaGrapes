@@ -1,0 +1,73 @@
+{
+    "grapes" : [
+        {
+            "id" : 1,
+            "name" : "Persian Grapes",
+            "origin" : "Persia",
+            "type" : "Seeded",
+            "price" : 28.00,
+            "stock" : 13,
+            "image" : "../media/shop/persianGrapes.jpg",
+            "hot": "No"
+        },
+        {
+            "id" : 2,
+            "name" : "Lion Grapes",
+            "origin" : "Ethiopia",
+            "type" : "Seeded",
+            "price" : 25.00,
+            "stock" : 15,
+            "image" : "../media/shop/lionGrapes.jpg",
+            "hot": "Yes"
+        },
+        {
+            "id" : 3,
+            "name" : "Italian Wine Grapes",
+            "origin" : "Italy",
+            "type" : "Seeded",
+            "price" : 30.00,
+            "stock" : 22,
+            "image" : "../media/shop/italianWineGrapes.webp",
+            "hot": "Yes"
+        },
+        {
+            "id" : 4,
+            "name" : "Blue Mountain Grapes",
+            "origin" : "Jamaica",
+            "type" : "Seedles",
+            "price" : 24.00,
+            "stock" : 18,
+            "image" : "../media/shop/blueMountainGrapes.jpg",
+            "hot": "Yes"
+        },
+        {
+            "id" : 5,
+            "name" : "Texas Grapes",
+            "origin" : "USA",
+            "type" : "Seeded",
+            "price" : 25.00,
+            "stock" : 10,
+            "image" : "../media/shop/texasGrapes.jpeg",
+            "hot": "No"
+        },
+        {
+            "id" : 6,
+            "name" : "Love Grapes",
+            "origin" : "France",
+            "type" : "Seedless",
+            "price" : 26.00,
+            "stock" : 19,
+            "image" : "../media/shop/loveGrapes.jpg",
+            "hot": "No"
+        }, 
+        {   "id" : 7,
+            "name" : "Perfume Grapes",
+            "origin" : "USA",
+            "type" : "Seedless",
+            "price" : 20.00,
+            "stock" : 0,
+            "image" : "../media/shop/perfumeGrapes.jpg",
+            "hot": "No"
+        }
+    ]
+}
